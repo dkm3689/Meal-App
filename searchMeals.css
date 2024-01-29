@@ -1,0 +1,108 @@
+#mainHeading {
+    font-size: 60px;   
+    color: white; 
+}
+
+body {
+    background-color: rgb(35, 8, 8);
+    display: grid;
+    place-items: center;
+}
+
+#searchBox {
+    color: black;
+    border: none;
+    margin-top: 10px;
+    padding-left: 12px;
+    border-radius: 15px;
+    height: 40px;
+    width: 600px;
+}
+
+#searchBox:hover {
+    box-shadow: 0 0 1px 2px white;
+}
+
+#searchBox:focus {
+    outline: none;
+    box-shadow: green;
+}
+
+#resultsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    border-radius: 15px;
+   
+    /* border: 2px solid black; */
+    font-size: 20px;
+    color: black;
+    overflow: auto;
+}
+
+.meal-name {
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    margin: 10px 20px 10px 40px;
+    margin-left: 40px;
+    background-color: rgb(239, 184, 46);
+    border-radius: 20%;
+    /* border: 2px solid black; */
+}
+
+.horizontal-elements {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.meal-img {
+    max-width: 230px;
+    max-height: auto;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.meal-img:hover{
+    transition: 0.5s;
+    max-width: 240px;
+    height: auto;
+}
+
+.meal-details {
+    border: solid 1px;
+    border-radius: 3px;
+    height: 25px;
+    width: 100px;
+    margin-left: 80px;
+    margin-top: 100px;
+    background-color: rgb(239, 184, 46);
+}
+
+.meal-details:hover {
+    transition: 0.5s;
+    background-color: white;
+    cursor: pointer;
+    height: 35px;
+    width: 120px; 
+}
+
+
+.meal-information {
+    /* background-color: green; */
+    height: 80%;
+    width: 100%;
+}
+
+.meal-instructions {
+    height: 80%;
+    width: 100%;
+}
